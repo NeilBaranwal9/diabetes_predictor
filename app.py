@@ -4,7 +4,7 @@ import numpy as np
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app, resources={r"/predict": {"origins": "https://neilbaranwal9.github.io/diabetes_predictor"}})
+CORS(app, resources={r"/predict": {"origins": "https://neilbaranwal9.github.io"}})
 
 # Load model and scaler once on server start
 model = joblib.load('model.pkl')
