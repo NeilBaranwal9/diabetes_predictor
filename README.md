@@ -31,3 +31,6 @@ This project involves testing different machine learning models and developing a
 
 ## Contribution
 Feel free to **fork** this repo, experiment with different models, or improve the UI and backend API.
+
+## License
+This project is licensed under the **MIT License**.
